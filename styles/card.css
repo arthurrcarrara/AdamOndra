@@ -1,0 +1,25 @@
+#card {
+    display: flex;
+    justify-content: space-around;
+    
+  }
+  
+  #card {
+    position: absolute;
+    top: 25%;
+    right: 3%;
+    background-color: rgba(0, 0, 0, 0.188);
+    width: 95%;
+    height: 550px;
+  }
+  
+  #card p {
+    color: White;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: medium;
+    font-weight: 600;
+  
+    /* padding: 5px; */
+    margin-left: px;
+  }
+  

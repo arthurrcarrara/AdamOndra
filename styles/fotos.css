@@ -1,0 +1,24 @@
+body{
+    background-color: black;
+}
+
+.bannerStyle{
+
+    width: 500px;
+    height: 300px;
+
+    position: absolute;
+    top: 200px;
+    left: 500px;
+}
+
+@media (max-width: 425px){
+    
+    .bannerStyle{
+        width: 375px;
+        
+        left:30px;
+        right:30px
+        
+    }
+}

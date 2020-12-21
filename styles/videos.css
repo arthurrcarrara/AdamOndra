@@ -1,0 +1,45 @@
+body {
+  background-color: black;
+}
+
+#cardVid {
+  /* background-color: white; */
+  position: absolute;
+  top: 30%;
+  left: 4.5%;
+  padding:10px;
+    
+  width: 90%;
+  height: 500px;
+
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20%;
+  grid-template-rows: 250px 250px;
+  justify-content: space-around;
+}
+
+.box{
+
+    height: 90%;
+    width: 100%;
+    background-color: black;
+    align-items: center;
+}
+
+.box iframe{
+    width:100%;
+    height:100%;
+}
+
+@media (max-width: 600px) {
+  
+  #cardVid{
+    grid-template-columns: 100%;
+    grid-template-rows: repeat(8, 400px);
+    top:150px;
+    left: 11px;
+  }
+}
+
+
+

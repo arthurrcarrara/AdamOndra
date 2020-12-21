@@ -1,0 +1,92 @@
+body{
+   background-color: black;
+
+}
+
+aside{
+    position: absolute;
+    z-index: 0;
+    
+    right: auto;
+    width: 1000px;
+    height: 700px;
+    background-image: url("../images/adamOndra4.png");
+    background-repeat: no-repeat;
+    background-position: 80% 25%;
+    margin-right: 5px;
+    background-color: black;
+}
+
+#cardIndex{
+
+    position: absolute;
+    z-index: 1;
+    top: 200px;
+    right: 1%;
+    /* background-color: rgba(255, 255, 255, 0.17); */
+    width: 500px;
+    height: 400px;
+
+}
+
+#cardIndex p{
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+
+    padding: 5px;
+    margin-left: 20px;
+
+}
+
+form {
+    padding: 5px;
+    color: black;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    z-index: 1;
+
+    font-size: small;
+    font-family: 'Source Sans Pro', sans-serif;
+
+
+    border: 5px solid #dfdede;
+    border-top-width: 5px;
+
+    
+
+    top:400px;
+    right: 10.5%;
+    border-radius: 2px;
+}
+
+form button{
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+    font-family: 'Source Sans Pro', sans-serif;
+
+}
+
+@media (max-width: 600px) {
+    #cardIndex {
+        height: 200px;
+        width: 400px;
+        left: 3%;
+        top: 600px;
+    }
+
+    aside{
+    right: 0px;
+    left: 0px;
+    margin-right: 0px;
+    width: 425px;
+    }
+
+    form{
+        top: 850px;
+        left: 45px;
+    }
+  }
