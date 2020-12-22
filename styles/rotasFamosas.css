@@ -1,0 +1,77 @@
+body {
+  background-color: black;
+}
+
+#cardRotas {
+  display: flex;
+  justify-content: space-around;
+}
+
+#cardRotas {
+  position: absolute;
+  top: 28%;
+  right: 3%;
+  background-color: rgba(0, 0, 0, 0.188);
+  width: 95%;
+  height: 550px;
+}
+
+#cardRotas p {
+  color: White;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: medium;
+  font-weight: 600;
+
+  /* padding: 5px; */
+  margin-left: px;
+}
+
+#cardRotas .box1,
+#cardRotas .box2,
+#cardRotas .box3 {
+  /* padding: 5%; */
+  max-width: 500px;
+  max-height: 300px;
+  width: auto;
+  height: auto;
+}
+
+#cardRotas .box1 img,
+#cardRotas .box2 img,
+#cardRotas .box3 img {
+  width: 400px;
+  height: 300px;
+  padding-top: 5px;
+  object-fit: fill;
+}
+
+#cardRotas .box1 p,
+#cardRotas .box2 p,
+#cardRotas .box3 p {
+  width: 400px;
+  text-align: justify;
+}
+
+@media (max-width: 600px) {
+
+  
+  #cardRotas {
+    flex-direction: column;
+
+    top: 150px;
+    height: 1250px;
+
+    justify-content: flex-start;
+  }
+
+  #cardRotas p {
+    margin-top: 5px;
+    margin-bottom: 0px;
+  }
+
+  #cardRotas .box1,
+  #cardRotas .box2,
+  #cardRotas .box3 {
+    margin-bottom: 100px;
+  }
+}
