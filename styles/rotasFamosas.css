@@ -56,7 +56,7 @@ body {
   #cardRotas {
     flex-direction: column;
 
-    top: 15%;
+    top: 150px;
     height: 1250px;
 
     justify-content: flex-start;
